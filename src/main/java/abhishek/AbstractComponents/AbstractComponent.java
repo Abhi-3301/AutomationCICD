@@ -19,6 +19,7 @@ public class AbstractComponent {
 	WebDriverWait wait;
 
 	public AbstractComponent(WebDriver driver) {
+		//Change
 
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
